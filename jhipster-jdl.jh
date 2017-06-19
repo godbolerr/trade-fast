@@ -1,0 +1,26 @@
+/**
+ * The Employee entity.
+ */
+entity Employee {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	hireDate ZonedDateTime,
+	salary Long,
+	hireStatus String
+}
+
+// Set pagination options
+
+paginate Employee with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee
+// Set an angular suffix
+angularSuffix * with myEmp
