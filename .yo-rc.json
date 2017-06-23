@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp"
+    },
+    "jhipsterVersion": "4.5.5",
+    "baseName": "myreact",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "8bf73d6f9a8fbf7b08b75706da1ccae0c6970087",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "ja"
+    ]
+  },
+  "generator-jhipster-react": {
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "jhipsterVersion": "0.0.0",
+    "applicationType": "monolith",
+    "baseName": "myreact",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "ja"
+    ]
+  }
+}
